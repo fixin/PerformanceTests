@@ -8,11 +8,11 @@
  */
 
 use Fixin\Support\Performance\Performance;
-use FixinTools\Performance\Magic\VariablesA;
-use FixinTools\Performance\Magic\VariablesB;
+use App\Performance\Magic\VariablesA;
+use App\Performance\Magic\VariablesB;
 
 (function() {
-    include dirname(__DIR__, 3) . '/boosts/minimal.php';
+    include dirname(__DIR__, 2) . '/vendor/fixin/fixin/boosts/minimal.php';
 
     $loops = 2000000;
     $objectA = new VariablesA();

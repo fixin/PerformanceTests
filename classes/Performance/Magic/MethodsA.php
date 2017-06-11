@@ -7,7 +7,7 @@
  * http://www.fixinphp.com
  */
 
-namespace FixinTools\Performance\Magic;
+namespace App\Performance\Magic;
 
 /**
  * @method escapeHtml($string)
