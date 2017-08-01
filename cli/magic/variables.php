@@ -12,7 +12,7 @@ use App\Performance\Magic\VariablesA;
 use App\Performance\Magic\VariablesB;
 
 (function() {
-    include dirname(__DIR__, 2) . '/vendor/fixin/fixin/boosts/minimal.php';
+    include dirname(__DIR__, 2) . '/bootstrap.php';
 
     $loops = 2000000;
     $objectA = new VariablesA();

@@ -12,7 +12,7 @@ use App\Performance\Magic\MethodsA;
 use App\Performance\Magic\MethodsB;
 
 (function() {
-    include dirname(__DIR__, 2) . '/vendor/fixin/fixin/boosts/minimal.php';
+    include dirname(__DIR__, 2) . '/bootstrap.php';
 
     $loops = 500000;
     $objectA = new MethodsA();

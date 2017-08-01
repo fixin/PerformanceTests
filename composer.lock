@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9bc9eb08405590cd1ae6f4a6dce38738",
+    "packages": [
+        {
+            "name": "fixin/fixin",
+            "version": "v1.0-alpha.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fixin/fixin.git",
+                "reference": "f99e92b7b0cdc4810c65b1913417cdf9b285679e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fixin/fixin/zipball/f99e92b7b0cdc4810c65b1913417cdf9b285679e",
+                "reference": "f99e92b7b0cdc4810c65b1913417cdf9b285679e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fixin\\": "classes/Fixin/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Attila Jenei",
+                    "email": "contact@attilajenei.com",
+                    "homepage": "http://www.attilajenei.com"
+                }
+            ],
+            "description": "Fixin Framework",
+            "homepage": "http://www.fixinphp.com",
+            "keywords": [
+                "fixin",
+                "framework"
+            ],
+            "time": "2017-07-30T16:00:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.1.3"
+    },
+    "platform-dev": []
+}
